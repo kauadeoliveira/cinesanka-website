@@ -37,26 +37,10 @@ export async function getServerSideProps() {
 }
 
 
-export default function Movies({ dataMovies, detailsMovies }) {
-    console.log(detailsMovies)
-    function teste() {
-        const categories = [];
-
-        detailsMovies.map(movie => {
-            movie.genres.map(genre => {
-                if(!categories.includes(genre.name)){
-                    categories.push(genre.name)
-                }
-            })
-        })
-
-
-        return categories
-    }
-
+export default function Movies({ detailsMovies }) {
     return(
         <>
-        <Header size="small"/>
+        <Header size="small" />
         <CardsWrapper>    
             {detailsMovies.map(movie => {
                 return(

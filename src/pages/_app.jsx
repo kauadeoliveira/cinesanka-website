@@ -21,7 +21,6 @@ function MyApp({ Component, pageProps }) {
       <WrapperComponent>
         <Component {...pageProps} />
       </WrapperComponent>
-      <Footer />
     <CssBaseline />
     </ThemeProvider>
     </>

@@ -23,9 +23,9 @@ const BottomNav = () => {
             onChange={handleValueNavigation}
             value={valueNav}
             >
-                <BottomNavigationAction label="Inicio" icon={<HomeIcon />} href="/"/>
-                <BottomNavigationAction label="Meus ingressos" icon={<LocalActivityIcon />}/>
-                <BottomNavigationAction label="Carrinho" icon={<ShoppingCartIcon />}/>
+                <BottomNavigationAction label="Home" icon={<HomeIcon />} href="/"/>
+                <BottomNavigationAction label="My Tickets" icon={<LocalActivityIcon />}/>
+                <BottomNavigationAction label="Cart" icon={<ShoppingCartIcon />}/>
             </BottomNavigation>
         </Paper>
      );

@@ -1,15 +1,16 @@
 import styled from "@emotion/styled";
-import { Button } from "@mui/material";
-import { Box } from "@mui/system";
 
-export const Title = styled.h2`
-    margin: 0;
-    line-height: 15px;
-    margin-left: 110px;
-    font-size: 16px;
-`
-
-export const CarouselContainer = styled(Box)`
+export const CarouselContainer = styled.div`
+    .title{
+        margin: auto;
+        width: 270px;
+    }
+    
+    h2{
+        margin: 0px 0px 5px 0px;
+        line-height: 15px;
+        font-size: 16px;
+    }
 `
         
 export const MaskHoverEffect = styled.div`

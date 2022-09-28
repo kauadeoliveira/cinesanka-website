@@ -6,10 +6,10 @@ import { Box } from "@mui/system";
 export const HeaderContainer = styled.div`
     display: flex;
     background-color: transparent;
+    margin: 5px auto;
     z-index: 1;
     justify-content: space-between;
     text-align: center;
-    margin: 5px auto;
     width: 100%;
     font-size: ${({ size }) => size === 'large'? '20px' : '12px'};
     h1{

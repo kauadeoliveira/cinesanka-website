@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Button, FormControl, IconButton, InputAdornment, InputLabel, OutlinedInput, TextField } from "@mui/material";
+import { Button, FormControl, IconButton, InputAdornment, InputLabel, Link, OutlinedInput, TextField } from "@mui/material";
 import { Container, Box } from "@mui/system";
 import { DinamicSearchBar, HeaderContainer } from "./styles";
 import Avatar from '@mui/material/Avatar';
@@ -33,7 +33,7 @@ const Header = ({ size }) => {
             <div style={{width: '400px', margin: '5px auto'}}>
                 <FormControl variant="standard" size="small" fullWidth >
                     <OutlinedInput
-                    placeholder="Pesquisar"
+                    placeholder="Search"
                     startAdornment={
                     <IconButton>
                         <SearchIcon />
@@ -57,7 +57,7 @@ const Header = ({ size }) => {
 
                         <FormControl variant="standard" size="small">
                             <OutlinedInput
-                            placeholder="Pesquisar"
+                            placeholder="Search"
                             startAdornment={
                                 <IconButton>
                                 <SearchIcon />

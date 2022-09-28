@@ -2,16 +2,11 @@ import styled from "@emotion/styled";
 
 export const TopNavWrapper = styled.div`
     padding: 0 20px;
-    color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0px auto 5px auto;
-    span:first-child{
-        font-weight: bold;
-        font-size: 18px;
-    }
-    a{
+    justify-content: flex-end;
+    margin: 10px auto 5px auto;
+    .button-see-all{
         height: 30px;
         font-size: 12px;
         vertical-align: 40px;
@@ -29,7 +24,11 @@ export const TopNavWrapper = styled.div`
         height:80px;
         width: 130px;
         line-height: 12px;
-                
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
         div{
             line-height: 30px;
             font-size: 20px;
